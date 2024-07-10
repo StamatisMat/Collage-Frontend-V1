@@ -1,0 +1,19 @@
+.about-me-paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+}
+
+.paragraph-link {
+    color:blueviolet;
+    text-decoration: none;
+}
+
+.paragraph-link:hover {
+    color:violet;
+    text-decoration: none;
+}
