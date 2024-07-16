@@ -1,0 +1,14 @@
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 1vh;
+}
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 1vh;
+}

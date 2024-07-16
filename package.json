@@ -1,8 +1,9 @@
 {
   "name": "collage-fe-v1",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",

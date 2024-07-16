@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutMe.css';
 export const AboutMe = () => {
   return (
-    <div className='about-me-paragraph'>
+    <div className='main-container about-me-paragraph'>
       <p>
         My name is Stamatis, I'm a Computer Science & Engineering graduate, was born in 1999 and I'm currently looking for my first Software Develompent Role.
       </p>
@@ -13,7 +13,7 @@ export const AboutMe = () => {
         the most important skill I've learned is to learn effectively and efficiently. 
       </p>
       <p>
-        My years being a student ended in September of 2022 with a diploma thesis using Deep Learning called: <a className='paragraph-link' href='https://github.com/StamatisMatziounis/DeepTexturesTensorflow' target='blank'>
+        My years being a student ended in September of 2022 with a diploma thesis using Deep Learning called: <a className='paragraph-link' href='https://github.com/StamatisMat/Deep-Textures-TensorFlow' target='blank'>
         Restoration of Ancient Artifacts using Deep Learning</a>.
         My goals were to learn to become a better reasearch scientist, to give a useful tool to everyone in the computer science community,
         as well as to advance my coding and presentation skills.

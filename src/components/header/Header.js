@@ -10,7 +10,7 @@ const Header = () => {
     <Navbar bg="dark" variant="dark" expand="lg">
         <Container fluid>
             <Navbar.Brand href="/" style={{"color":'lightblue'}}>
-                <FontAwesomeIcon icon = {faCamera}/> Stamatis' Internet Corner
+                <FontAwesomeIcon icon = {faCamera}/> Stamatis
             </Navbar.Brand>
             <Navbar.Toggle aria-controls = "navbarScroll"/>
             <Navbar.Collapse id="navbarScroll">

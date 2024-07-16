@@ -7,7 +7,7 @@ export const Collage = ({images}) => {
 
   
   return (
-    <div className='image-gallery'>
+    <div className='main-container image-gallery'>
       <ImageGallery layout='rows' photos={images}/>
     </div>
   )

@@ -17,3 +17,8 @@
     overflow: auto;
     color:aliceblue;
 }
+
+main, .main-container {
+    flex: 1;
+}
+

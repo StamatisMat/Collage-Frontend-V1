@@ -1,21 +1,31 @@
 .image-carousel-container{
     display: flex;
-    flex-direction: row;
+
+    flex-direction: column;
     justify-content: center;
-        
-    height:90vh;
     padding-top: 2vb;
 
+    height:fit-content;
+    
+    padding-left: 25vw;
+    padding-right: 25vw;
+
     background-color: transparent;
+    background: transparent;
 
     transition: height 1.0s ease-in-out, background-color 1.0s ease-in-out, color 1.0s ease-in-out;
 }
+.MuiPaper-root {
+    background-color: transparent!important;
+
+}
 .image-card-container {
+    flex:1 1 auto;
     text-align:  center;
     align-items: center;
     
     font-size: calc(10px + 2vmin);
-    background-color: transparent;
+    background-color: inherit;
 
     transition: background-color 1.0s ease-in-out;
 }
@@ -25,12 +35,15 @@
     height:auto;
     align-items: center;
 }
-
+.image-card{
+    background-color: inherit;
+}
 
 .image-details {
-    background-color: darkgray;
+    background-color: inherit;
     transition: color 1.0s ease-in-out; 
 }
 .image-description {
+    background-color: inherit;
     font-size: calc(6px + 1vmin);
 }

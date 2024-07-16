@@ -1,6 +1,26 @@
-.projects-paragraph{
+.projects-box{
     display:flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vh;
+}
+.projects-paragraph {
+    padding-bottom: 2vh;
+}
+.projects-images {
+    font-size: 8px+1vh;
+}
+.projects-link {
+    color: rosybrown;
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-decoration: none;
+
+	&:hover {
+		color: lightblue;
+		transition: 200ms ease-in;
+	}
 }

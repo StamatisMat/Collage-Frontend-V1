@@ -20,3 +20,8 @@
 		transition: 200ms ease-in;
 	}
 }
+
+.contact-form {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
