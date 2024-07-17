@@ -18,7 +18,7 @@ function App() {
   const getCollage = async () => {
     console.log("Fetching collage data...");
     try {
-      var apiLink = "/api/v1/collage"
+      var apiLink = ""
       const response = await api.get(apiLink);
 
       console.log(response.data);
