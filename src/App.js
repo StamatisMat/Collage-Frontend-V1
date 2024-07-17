@@ -21,7 +21,7 @@ function App() {
       var apiLink = ""
       const response = await api.get(apiLink);
 
-      console.log(response.data);
+      //console.log(response.data);
 
       setCollage(response.data);
 
