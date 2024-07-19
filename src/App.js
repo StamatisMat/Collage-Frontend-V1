@@ -10,6 +10,7 @@ import Collage from './components/collage/Collage';
 import Projects from './components/projects/Projects';
 import AboutMe from './components/aboutme/AboutMe';
 import Contact from './components/contact/Contact';
+import NoPage from './components/nopage/NoPage';
 
 function App() {
 
@@ -41,11 +42,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route path="/" element = {<Home images = {collage}/>} />
+          <Route path="/Collage" element={<Collage images = {collage}/>} />
+          <Route path="/Projects" element={<Projects/>} />
+          <Route path="/AboutMe" element={<AboutMe/>} />
+          <Route path="/Contact" element={<Contact/>} />
+          <Route path="/*" element = {<NoPage/>} />
         </Route>
-        <Route path="/Collage" element={<Collage images = {collage}/>} />
-        <Route path="/Projects" element={<Projects/>} />
-        <Route path="/AboutMe" element={<AboutMe/>} />
-        <Route path="/Contact" element={<Contact/>} />
       </Routes>
       <Footer/>
     </div>

@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+document.title = "Stamatis' Personal Webpage"
 root.render(
   <React.StrictMode>
     <BrowserRouter>
