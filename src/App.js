@@ -27,6 +27,7 @@ function App() {
       setCollage(response.data);
 
     } catch(err) {
+      setCollage([{'src': 'https://i.imgur.com/s8YYowu.jpeg','title': 'Backend has failed us.'}]);
       console.error("Error fetching collage data:", err);
     }
     

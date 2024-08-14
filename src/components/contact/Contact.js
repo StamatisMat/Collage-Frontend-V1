@@ -10,6 +10,7 @@ export const Contact = () => {
       <h4><NavLink className="contact-link" to="mailto:stamatis_mat@hotmail.com" target="_blank">Send me an email</NavLink></h4>
       <h4><NavLink className="contact-link" to="https://www.linkedin.com/in/stamatis-matziounis/" target="_blank">Connect on LinkedIn</NavLink></h4>
       <div className="contact-form">
+        <h4>Contact form: </h4>
         <ContactForm />
       </div>
 
