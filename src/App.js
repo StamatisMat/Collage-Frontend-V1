@@ -4,8 +4,7 @@ import {useState, useEffect} from 'react';
 import Layout from './components/Layout';
 import {Routes, Route} from 'react-router-dom';
 import Home from './components/home/Home';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
+
 import Collage from './components/collage/Collage';
 import Projects from './components/projects/Projects';
 import AboutMe from './components/aboutme/AboutMe';
@@ -27,8 +26,9 @@ function App() {
       setCollage(response.data);
 
     } catch(err) {
-      setCollage([{'src': 'https://i.imgur.com/s8YYowu.jpeg','title': 'Backend has failed us.'}]);
+      setCollage([{'src': 'https://i.imgur.com/s8YYowu.jpeg','title': 'Backend has failed us.','description': 'Need to get better provider. Please Refresh.'},{'src': 'https://i.imgur.com/9fK6vcW.jpeg', 'title': 'Backend has failed us. Please Refresh.','description': 'Need to get better provider for backend'}]);
       console.error("Error fetching collage data:", err);
+      console.log('Need to get better provider for backend. Maybe refresh to see if the provider works');
     }
     
   }
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route path="/" element = {<Home images = {collage}/>} />
@@ -50,7 +50,7 @@ function App() {
           <Route path="/*" element = {<NoPage/>} />
         </Route>
       </Routes>
-      <Footer/>
+      
     </div>
   );
 }

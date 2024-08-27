@@ -1,11 +1,10 @@
 .image-carousel-container{
     display: flex;
+    flex:1 1;
 
     flex-direction: column;
     justify-content: center;
     padding-top: 2vb;
-
-    height:fit-content;
     
     padding-left: 25vw;
     padding-right: 25vw;
